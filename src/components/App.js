@@ -7,9 +7,10 @@ import {
   Link
 } from "react-router-dom";
 
-import Home from './Home'
+import Blog from './Blog'
 import Donator from './donator/Donator';
 import Dashboard from './dashboard/Dashboard';
+import Home from './home/Home';
 import Nav from './Nav';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route exact path="/" component = {Home} />
             <Route path="/donator" component = {Donator} />
             <Route path="/dashboard" component = {Dashboard} />
+            <Route path="/blog" component = {Blog} />
           </Switch>
       </Router>
     </div>

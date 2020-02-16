@@ -5,7 +5,7 @@ class Nav extends Component {
   render(){
     return(
       <div>
-        <nav className="navbar navbar-expand-sm bg-light fixed-top">
+        <nav className="navbar navbar-expand-sm bg-dark fixed-top">
 
           <ul className="navbar-nav">
             <li className="nav-item">
@@ -18,7 +18,7 @@ class Nav extends Component {
               <a className="nav-link" href="/dashboard" >Dashboard</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link disabled" href="#" >About</a>
+              <a className="nav-link" href="/blog" >Blog</a>
             </li>
           </ul>
 
