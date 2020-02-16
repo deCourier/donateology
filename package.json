@@ -13,20 +13,12 @@
     "axios": "^0.19.2",
     "body-parser": "^1.19.0",
     "bootstrap": "^4.4.1",
-<<<<<<< HEAD
     "markdown-to-jsx": "^6.11.0",
-=======
     "express": "^4.17.1",
->>>>>>> 0d536131ab51e9361eaaa7e0a73d4201c09c1331
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-crossfade-image": "^1.2.0",
     "react-dom": "^16.12.0",
-<<<<<<< HEAD
-    "react-markdown": "^4.3.1",
-=======
-    "react-metamask-login-button": "^1.0.18",
->>>>>>> 0d536131ab51e9361eaaa7e0a73d4201c09c1331
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
     "react-web3-provider": "^1.1.2",

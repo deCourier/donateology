@@ -29,20 +29,11 @@ import Nav from './Nav';
 function App() {
   return (
     <div className = "App">
-<<<<<<< HEAD
 
 
 
-      <Router>
-          <Nav />
-          <Switch>
-            <Route exact path="/" component = {Home} />
-            <Route path="/donator" component = {Donator} />
-            <Route path="/dashboard" component = {Dashboard} />
-            <Route path="/blog" component = {Blog} />
-          </Switch>
-      </Router>
-=======
+
+
         <Router>
             <Nav />
             <Switch>
@@ -51,7 +42,7 @@ function App() {
               <Route path="/dashboard" component = {Dashboard} />
             </Switch>
         </Router>
->>>>>>> 0d536131ab51e9361eaaa7e0a73d4201c09c1331
+
     </div>
   );
 }
